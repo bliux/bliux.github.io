@@ -94,13 +94,19 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="使用Spring框架编写脚本指南原文链接: https://dzone.com/articles/in-any-incomprehensible-situation-go-scripting 作者: Andrey Belyaev  Aleksey Stukalov 译者: bliux 脚本编写是使您的应用程序在运行时可根据客户需求进行调整的最常用方法之一。与往常一样，这种方法引入了灵活性和可管理性">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用Spring框架编写脚本指南">
+<meta property="og:url" content="http://yoursite.com/2018/12/09/scripting-with-spring/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="使用Spring框架编写脚本指南原文链接: https://dzone.com/articles/in-any-incomprehensible-situation-go-scripting 作者: Andrey Belyaev  Aleksey Stukalov 译者: bliux 脚本编写是使您的应用程序在运行时可根据客户需求进行调整的最常用方法之一。与往常一样，这种方法引入了灵活性和可管理性">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="https://s1.ax1x.com/2018/12/08/F8J1dP.png">
+<meta property="og:updated_time" content="2018-12-09T15:46:55.445Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="使用Spring框架编写脚本指南">
+<meta name="twitter:description" content="使用Spring框架编写脚本指南原文链接: https://dzone.com/articles/in-any-incomprehensible-situation-go-scripting 作者: Andrey Belyaev  Aleksey Stukalov 译者: bliux 脚本编写是使您的应用程序在运行时可根据客户需求进行调整的最常用方法之一。与往常一样，这种方法引入了灵活性和可管理性">
+<meta name="twitter:image" content="https://s1.ax1x.com/2018/12/08/F8J1dP.png">
 
 
 
@@ -129,13 +135,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2018/12/09/scripting-with-spring/">
 
 
 
 
 
-  <title>Hexo</title>
+  <title>使用Spring框架编写脚本指南 | Hexo</title>
   
 
 
@@ -160,9 +166,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
@@ -245,9 +249,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -277,9 +281,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/12/09/scripting-with-spring/" itemprop="url">使用Spring框架编写脚本指南</a></h1>
+          <h1 class="post-title" itemprop="name headline">使用Spring框架编写脚本指南</h1>
         
 
         <div class="post-meta">
@@ -329,9 +331,7 @@
       
 
       
-        
-          
-            <h1 id="使用Spring框架编写脚本指南"><a href="#使用Spring框架编写脚本指南" class="headerlink" title="使用Spring框架编写脚本指南"></a>使用Spring框架编写脚本指南</h1><p>原文链接: <a href="https://dzone.com/articles/in-any-incomprehensible-situation-go-scripting" target="_blank" rel="noopener">https://dzone.com/articles/in-any-incomprehensible-situation-go-scripting</a></p>
+        <h1 id="使用Spring框架编写脚本指南"><a href="#使用Spring框架编写脚本指南" class="headerlink" title="使用Spring框架编写脚本指南"></a>使用Spring框架编写脚本指南</h1><p>原文链接: <a href="https://dzone.com/articles/in-any-incomprehensible-situation-go-scripting" target="_blank" rel="noopener">https://dzone.com/articles/in-any-incomprehensible-situation-go-scripting</a></p>
 <p>作者: <a href="https://dzone.com/users/3363000/abelyaev.html" target="_blank" rel="noopener">Andrey Belyaev</a>  <a href="https://dzone.com/users/1486463/aleksey.stukalov.html" target="_blank" rel="noopener">Aleksey Stukalov</a></p>
 <p>译者: <a href="https://github.com/bliux" target="_blank" rel="noopener">bliux</a></p>
 <p>脚本编写是使您的应用程序在运行时可根据客户需求进行调整的最常用方法之一。与往常一样，这种方法引入了灵活性和可管理性之间的权衡。本文介绍了在项目中采用脚本的不同方法，以及如何整合提供方便的脚本基础结构和其他有用功能的Spring库。</p>
@@ -410,8 +410,6 @@
 <p>最后，脚本执行时间可以通过注解中的超时参数进行限制。</p>
 <p>资源可以在<a href="https://github.com/cuba-rnd/spring-script-repositories" target="_blank" rel="noopener">GitHub上</a>找到。</p>
 
-          
-        
       
     </div>
     
@@ -428,140 +426,28 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/09/hello-world/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/12/09/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-12-09T23:23:35+08:00">
-                2018-12-09
-              </time>
+              <a href="/2018/12/09/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -571,10 +457,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -582,6 +469,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -602,8 +493,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="John Doe">
           <p class="site-author-name" itemprop="name">John Doe</p>
@@ -645,6 +545,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#使用Spring框架编写脚本指南"><span class="nav-number">1.</span> <span class="nav-text">使用Spring框架编写脚本指南</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#介绍"><span class="nav-number">1.1.</span> <span class="nav-text">介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#没什么特别的，只是脚本"><span class="nav-number">1.2.</span> <span class="nav-text">没什么特别的，只是脚本</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#脚本性能"><span class="nav-number">1.3.</span> <span class="nav-text">脚本性能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Spring框架：一个难以拒绝的提议？"><span class="nav-number">1.4.</span> <span class="nav-text">Spring框架：一个难以拒绝的提议？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#脚本-挑战和想法"><span class="nav-number">1.5.</span> <span class="nav-text">脚本: 挑战和想法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#脚本仓库概念"><span class="nav-number">1.6.</span> <span class="nav-text">脚本仓库概念</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#我们可能需要实施这一概念吗？"><span class="nav-number">1.6.1.</span> <span class="nav-text">我们可能需要实施这一概念吗？</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#它是怎么工作的"><span class="nav-number">1.7.</span> <span class="nav-text">它是怎么工作的</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#测试和版本控制"><span class="nav-number">1.8.</span> <span class="nav-text">测试和版本控制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number">1.9.</span> <span class="nav-text">总结</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -758,10 +674,10 @@
   
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
 
-  
+
 
   
 
